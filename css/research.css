@@ -1,0 +1,192 @@
+/*研究页*/
+.container-main.research-content main .main-box{
+    width: 1200px;
+}
+.container-main.research-content main .main-box .menu li a{
+    display: flex;
+    width: 217px;
+    height: 84px;
+    line-height: 84px;
+    box-sizing: border-box;
+    padding: 0;
+    text-indent: 25px;
+}
+.research .main-full h3{
+    font-size: 60px;
+    letter-spacing: 0;
+    padding-bottom: 70px;
+    font-family: "Times New Roman";
+}
+.research .main-full p{
+    font-size: 20px;
+    color: #003c79;
+    line-height: 35px;
+    padding-bottom: 35px;
+    letter-spacing: 0;
+}
+.research .main-full .includes p{
+    padding-bottom: 30px;
+}
+.research .main-full .img-list{
+    display: flex;
+    justify-content: space-between;
+    height: 312px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgb(134,141,160);
+}
+.research .main-full .img-list img{
+    width: 49%;
+    height: 100%;
+}
+.research .main-full .bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.research .main-full .bottom div{
+    padding-top: 10px;
+    /*display: flex;*/
+    /*align-items: flex-end;*/
+}
+.research .main-full .bottom a{
+    font-size: 18px;
+    display: block;
+    width: 240px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #efefef;
+    color: #003c79;
+    cursor: pointer;
+}
+.research .main-full .bottom i{
+    padding-left: 50px;
+    font-size: 22px;
+    font-style: normal;
+    background-image: url("../images/research/icon_mail.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: #003c79;
+    line-height: 22px;
+    font-weight: bold;
+}
+.research .main-full .bottom div a{
+    display: inline;
+    background: none;
+    color: #0a88d0;
+    text-decoration: underline;
+    text-underline-offset:4px;
+    line-height: 22px;
+    padding-left: 10px;
+}
+.research .main-full .includes{
+    /*padding-bottom: 10px;*/
+}
+.research .main-full .includes p{
+    padding-bottom: 25px;
+}
+.research .main-full .includes ul{
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+.research .main-full .includes ul li{
+    display: flex;
+}
+.research .main-full .includes ul li i{
+    font-size: 20px;
+    line-height: 35px;
+    font-style: normal;
+    color: #003c79;
+    padding-right: 5px;
+}
+.research .main-full .includes ul li p{
+    padding-bottom: 44px;
+}
+
+/*研究子页面1*/
+.container-main.researchCenters main article p{
+    font-size: 27px;
+    line-height: 45px;
+    font-family: "Times New Roman";
+    color: #003c79;
+}
+.container-main.researchCenters main article ul{
+    padding-top: 20px;
+}
+.container-main.researchCenters main article ul li{
+    margin-bottom: 25px;
+    position: relative;
+}
+.container-main.researchCenters main article ul li a{
+    font-size: 24px;
+    color: #003c79;
+    font-family: "Times New Roman";
+    padding-left: 45px;
+    padding-bottom: 25px;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+.container-main.researchCenters main article ul li:before{
+    content: '';
+    display: block;
+    border-left: 12px solid #003c79;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.container-main.researchCenters main article ul li:after{
+    content: '';
+    display: block;
+    border-left: 12px solid #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: -2px;
+    transform: translateY(-50%);
+}
+.container-main.researchPublications main article h3{
+    font-size: 60px;
+    padding-bottom: 60px;
+}
+.container-main.researchPublications main article p{
+    font-size: 27px;
+    line-height: 45px;
+    font-family: "Times New Roman";
+    color: #003c79;
+}
+.container-main.researchPublications main article .img-list{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container-main.researchPublications main article .img-list img{
+    width: 285px;
+    height: 410px;
+}
+.container-main.researchPublications main article .img-list span{
+    font-size: 30px;
+    text-align: center;
+    font-family: "Times New Roman";
+    padding-top: 40px;
+    font-weight: bold;
+    color: #003c79;
+    display: block;
+    width: 270px;
+}
+.container-main.researchPublications main article .img-list .img-list-item{
+    width: 350px;
+}
+.container-main.researchPublications main article .img-list .img-list-item a{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.container-main.researchPublications main article .img-list .img-list-item a span{
+    display: block;
+    width: 100%;
+}

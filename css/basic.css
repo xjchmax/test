@@ -1,0 +1,66 @@
+/*basic*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 0px;
+	font-family:  Arial;
+	color: #000;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover,a:active{
+	text-decoration: none;
+	color:#ff5d05;
+}
+img {
+	border: none;
+}
+li {
+	list-style: none;
+}
+.center {
+	text-align: center;
+}
+.clear {
+	clear: both;
+}
+input,input:focus{
+	outline: none;
+    box-shadow: none;
+}
+.font-white{
+	color: #fff !important;
+}
+p{
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+}
+.space-between{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+.flex-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* @font-face {
+	src: url('../fonts/MinionVariableConcept-Roman.otf.woff2?cff-only') format('woff2-variations');
+	font-family:'Minion Variable Concept';
+	font-style: normal;
+}
+@font-face {
+	src: url('../fonts/MinionVariableConcept-Italic.otf.woff2?cff-only') format('woff2-variations');
+	font-family:'Minion Variable Concept';
+	font-style: italic;
+} */

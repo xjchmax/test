@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="Author" content="芝麻开发http://www.zhimawork.com" />
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <title>中国人民大学国际关系学院</title>
+        <link rel="stylesheet" href="css/basic.css" type="text/css" />
+        <link rel="stylesheet" href="css/common.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <script type="text/javascript" src="js/common.js"></script>
+    </head>
+    <body>
+        <div class="container container-main">
+            <div class="header">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo">
+                </div>
+                <!--搜索框-->
+                <div class="input js-input">
+                    <form id="searchForm" name="dataForm" action="/cms/web/search/index.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+                        <input type="text" name="homeSearch"/>
+                        <input type="hidden" name="siteID" value="$site.id"/>
+                        <input type="hidden" name="searchScope" value="0"/>
+                        <input type="hidden" name="sortField" value="publishDate"/>
+                        <a href="#" onclick="document.getElementById('searchForm').submit();return false;"></a>
+                    </form>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="main nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li>
+                        <a href="#">Faculty</a>
+                    </li>
+                    <li>
+                        <a href="#">Degree Programs</a>
+                    </li>
+                    <li>
+                        <a href="#">International Exchange </a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="hassub">
+                        <a href="#">Research</a>
+                        <div class="subnav">
+                            <a href="#">Creative encounters</a>
+                            <a href="#">Libraries</a>
+                            <a href="#">Business & enterprise</a>
+                            <a href="#">Latest research</a>
+                            <a href="#">Learn more</a>
+                        </div>
+                    </li>
+                    <li><a href="#">News & Events</a></li>
+                    <li><a href="#">RUC Review of Global Affairs</a></li>
+                </ul>
+            </div>
+            <div class="banner" style="background-image: url(images/degreePrograms/bar_degreePrograms.png)">
+                <span class="row-2">DEGREE</span>
+                <span class="row-2">PROGRAMS</span>
+            </div>
+            <div class="path" id="path_overflow">
+                <a href="#">HOME</a>
+                <span> > </span>
+                <a href="#">DEGREE PROGRAMS</a>
+                <span> > </span>
+                <a href="#">DEGREE PROGRAMS TAUGHT IN ENGLISH</a>
+                <span> > </span>
+                <a href="#">DOUBLE MASTERS IN ASIAN & INTERNATIONAL AFFAIRS</a>
+                <span> > </span>
+                <a href="#">PROGRAM STRUCTURE</a>
+            </div>
+            <main>
+                <div class="main-box">
+                    <div class="main-full">
+                        <div class="tab-list" spareID="tabList">
+                            <ul class="degree-list">
+                                <li>
+                                    <a href="applicationProcedure.html">
+                                        <i class="icon-app"></i>
+                                        <span>Application Procedure</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="feesScholarships.html">
+                                        <i class="icon-fees"></i>
+                                        <span>Fees and Scholarships</span>
+                                    </a>
+                                </li>
+                                <li class="active">
+                                    <a href="programStructure.html">
+                                        <i class="icon-programs"></i>
+                                        <span>Program Structure</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <h3>Program Structure</h3>
+                                <div class="drop-down-item active">
+                                    <h5>Year 1: Renmin University, MA in Asian and International Affairs</h5>
+                                    <p>During your first year of studies at Renmin University, you are required to complete 32 credits of coursework and write a dissertation of no less than 15.000 words on a relevant topic.</p>
+                                    <h4 onclick="dropDownClick(this)">Mandatory Modules</h4>
+                                    <div>
+                                        <ul>
+                                            <li>Contemporary Chinese Politics and Governance</li>
+                                            <li>Asia-Pacific Security and Strategy</li>
+                                            <li>Basic/Intermediate Chinese Language</li>
+                                            <li>Asia-Pacific Energy Cooperation</li>
+                                            <li>International Relations Theory and Asia-Pacific Regional Cooperation</li>
+                                            <li>Nations and Nationalism in East Asia</li>
+                                            <li>Contemporary Chinese History and Culture</li>
+                                            <li>Academic English Writing in Political Science</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="drop-down-item">
+                                    <h4 onclick="dropDownClick(this)">Optional Modules</h4>
+                                    <div>
+                                        <ul>
+                                            <li>...</li>
+                                            <li>...</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="drop-down-item">
+                                    <h5>Year 2: King’s College London, MA in Asian and International Affairs</h5>
+                                    <p>During your second year of studies at KCL, you are required to complete two mandatory modules and a number of optional modules.</p>
+                                    <h4 onclick="dropDownClick(this)">Mandatory Modules</h4>
+                                    <div>
+                                        <ul>
+                                            <li>...</li>
+                                            <li>...</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="drop-down-item">
+                                    <h4 onclick="dropDownClick(this)">Optional Modules</h4>
+                                    <div>
+                                        <ul>
+                                            <li>...</li>
+                                            <li>...</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="explain">For more details about what your year at Renmin University will be like, please check <a href="#">our program website</a>, where you will find information about faculty, courses, students and alumni.</p>
+                    </div>
+                </div>
+            </main>
+            <div class="footer">
+                <div class="cont">
+                    <div class="recom">
+                        <h4>RECOMMENDATION</h4>
+                        <p>
+                            <a href="#">Ministry of Foreign Affairs of the People's Republic of China</a>
+                            <a href="#" class="right">Renmin University of China</a>
+                        </p>
+                        <p>
+                            <a href="#">Ministry of Commerce, People's Republic of China</a>
+                            <a href="#" class="right">International Students Office, Renmin University of China</a>
+                        </p>
+                        <p><a href="#">Ministry of National Defense, The People's Republic of China</a></p>
+                    </div>
+                    <div class="contact">
+                        <h4>CONTACTS US</h4>
+                        <p><span>Tel: </span><span>+86 10 62511350</span></p>
+                        <p><span>Email: </span><span>rucsis@rucedu.cn</span></p>
+                        <p><span>Address: </span><span>Mingde International Building，No.59, Zhongguancun Street, Haidian District, Beijing P.R.China</span></p>
+                        <p><span>Post Code: </span><span>100872</span></p>
+                    </div>
+                    <div class="map">
+                        <img src="images/footer/footer_map.png">
+                    </div>
+                    <div class="clear"></div>
+                    <div class="copyright">
+                        <p> Copyright2017-2027.School of lnternational Studies, RUC 中国人民大学国际关系学院版权所有. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

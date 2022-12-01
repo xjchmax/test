@@ -1,0 +1,142 @@
+
+.container-main.degreePrograms .menu{
+    margin-top: 13px;
+}
+.container-main.degreePrograms main{
+    padding-top: 62px;
+}
+.container-main.degreePrograms main .main-box article h3{
+    line-height: 70px;
+    height: auto;
+    padding-bottom: 66px;
+}
+
+/*中文教学*/
+.degreeProgramsChinese .drop-down-content .drop-down-item h4:before{
+    width: 24px;
+}
+.degreeProgramsChinese .drop-down-content .drop-down-item h4:after{
+    height: 24px;
+}
+.degreeProgramsChinese .drop-down-content.style-line .drop-down-item h4:after{
+    left: 32px;
+}
+.degreeProgramsChinese .drop-down-text table tr td{
+    padding: 10px 30px;
+}
+
+/*英文教学硕士页面*/
+.container-main.degreeProgramsEnglish main .main-box article h3{
+    font-size: 59px;
+}
+.container-main.degreeProgramsEnglish main .main-box article h3{
+    padding-bottom: 55px;
+}
+.container-main.degreeProgramsEnglish main .main-box article h4{
+    padding-top: 0;
+    font-family: "Times New Roman";
+    padding-bottom: 33px;
+}
+.container-main.degreeProgramsEnglish main .main-box article p{
+    line-height: 33px;
+    font-weight: bold;
+    padding-bottom: 33px;
+}
+.container-main.degreeProgramsEnglish article h3{
+    padding-bottom: 20px;
+}
+.container-main.degreeProgramsEnglish article img{
+    padding-top: 35px;
+    padding-bottom: 62px;
+}
+.container-main.degreeProgramsEnglish article h4{
+    padding: 40px 0;
+    font-size: 48px;
+    color: #003c79;
+}
+.container-main.degreeProgramsEnglish article p{
+    line-height: 34px;
+    color: #003c79;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.container-main.degreeProgramsEnglish article p a{
+    color: #0980c7;
+    text-decoration: underline;
+    text-underline-offset:4px
+}
+
+
+/*英语教学双硕士页*/
+.degreeProgramsEnglishDouble article h3{
+    padding-bottom: 50px;
+}
+.degreeProgramsEnglishDouble article h4{
+    font-size: 48px;
+    color: #003c79;
+    padding-bottom: 40px;
+}
+.container-main.degreeProgramsEnglishDouble main .main-box article p{
+    line-height: 34px;
+}
+.degreeProgramsEnglishDouble article .img-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+.degreeProgramsEnglishDouble article .img-list .img-list-item{
+    width: 48%;
+    text-align: center;
+}
+.degreeProgramsEnglishDouble article .img-list .img-list-item img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.degreeProgramsEnglishDouble article .img-list .img-list-item span{
+    font-size: 20px;
+    color: #003c79;
+}
+.degreeProgramsEnglishDouble article .link-list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.degreeProgramsEnglishDouble article .link-list-item{
+    width: 255px;
+}
+.degreeProgramsEnglishDouble article .link-list-item a{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    color: #000;
+    border: 1px solid #003c79;
+    height: 234px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+.degreeProgramsEnglishDouble article .link-list-item i{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.degreeProgramsEnglishDouble article .link-list-item i.icon-app{background-image: url("../images/degreePrograms/icon_app.png");}
+.degreeProgramsEnglishDouble article .link-list-item:hover i.icon-app{background-image: url("../images/degreePrograms/icon_appActive.png");}
+.degreeProgramsEnglishDouble article .link-list-item i.icon-fees{background-image: url("../images/degreePrograms/icon_fees.png");}
+.degreeProgramsEnglishDouble article .link-list-item:hover i.icon-fees{background-image: url("../images/degreePrograms/icon_feesActive.png");}
+.degreeProgramsEnglishDouble article .link-list-item i.icon-programs{background-image: url("../images/degreePrograms/icon_programs.png");}
+.degreeProgramsEnglishDouble article .link-list-item:hover i.icon-programs{background-image: url("../images/degreePrograms/icon_programsActive.png");}
+.degreeProgramsEnglishDouble article .link-list span{
+    font-size: 28px;
+    display: block;
+    text-align: center;
+    width: 170px;
+}
+.degreeProgramsEnglishDouble article .link-list .link-list-item:hover span{
+    text-decoration: underline;
+    text-underline-offset:6px;
+}
+

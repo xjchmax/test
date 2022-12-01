@@ -1,0 +1,499 @@
+/*通用*/
+.container-main.exchange main .main-box .menu{
+    width: 237px;
+    margin-right: 77px;
+}
+.container-main.exchange main .main-box{
+    width: 1120px;
+}
+.container-main.exchange main article{
+    width: calc(100% - 314px);
+}
+.container-main.exchange main{
+    padding-top: 87px;
+}
+.container-main.exchange article p{
+    letter-spacing: 0;
+}
+.container-main.exchange article h4{
+    font-family: "Times New Roman";
+}
+.container-main.exchange main .main-box .menu li{
+    border-top: none;
+}
+
+/*交换生-介绍*/
+.studentExchangeIntroduce article h3{
+    padding-bottom: 48px;
+}
+.container-main.studentExchangeIntroduce main .main-box article p{
+    line-height: 36px;
+    font-weight: bold;
+}
+.container-main.studentExchangeIntroduce main .main-box article p a{
+    color: #0a88d0;
+    text-decoration: underline;
+    text-underline-offset:4px
+}
+.studentExchangeIntroduce article .drop-down-content{
+    padding-top: 33px;
+}
+.studentExchangeIntroduce article .drop-down-content .drop-down-item{
+    padding-bottom: 60px;
+}
+.studentExchangeIntroduce article .drop-down-item h4,
+.studentExchangeIntroduce article .drop-down-item.active h4{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-indent: 50px;
+}
+.studentExchangeIntroduce .drop-down-item.europe h4{background-image: url("../images/exchange/bg_introduce1.png");}
+.studentExchangeIntroduce .drop-down-item.americas h4{background-image: url("../images/exchange/bg_introduce2.png");}
+.studentExchangeIntroduce .drop-down-item.asia h4{background-image: url("../images/exchange/bg_introduce3.png");}
+.studentExchangeIntroduce .drop-down-item.asia h4:after{
+    border-top: 11px solid #fff;
+}
+.studentExchangeIntroduce .drop-down-item.asia.active h4:after{
+    border-top: 11px solid #fff;
+}
+.studentExchangeIntroduce .drop-down-item.oceania h4{background-image: url("../images/exchange/bg_introduce4.png");}
+.studentExchangeIntroduce .drop-down-item table{
+    border-left: 1px solid #003c79;
+    border-right: 1px solid #003c79;
+    border-bottom: 1px solid #003c79;
+}
+.studentExchangeIntroduce .drop-down-item table tbody tr{
+
+}
+.studentExchangeIntroduce .drop-down-item table tr:nth-child(even){
+    background: #eaeff4;
+}
+.studentExchangeIntroduce .drop-down-item table tbody tr td{
+    line-height: 30px;
+    padding: 15px 10px 15px 0;
+    color: #42628f;
+    font-size: 20px;
+}
+.studentExchangeIntroduce .drop-down-item table tbody tr td:first-child{
+    padding-left: 60px;
+}
+
+/*交换生-课程信息*/
+.studentExchangeCourse article h3{
+    padding-bottom: 43px;
+}
+.studentExchangeCourse article h4{
+    padding-bottom: 46px;
+}
+.studentExchangeCourse article .drop-down-item h4,.studentExchangeCourse article .drop-down-item.active h4{
+    font-size: 20px;
+    min-height: 66px;
+    height: auto;
+    position: relative;
+    text-indent: 0;
+    line-height: 31px;
+    padding: 15px 170px 15px 72px;
+    font-family: "Arial";
+}
+.studentExchangeCourse article .drop-down-content{
+    padding-bottom: 15px;
+}
+.studentExchangeCourse article .drop-down-item{
+    padding-bottom: 20px;
+}
+.studentExchangeCourse article .drop-down-item h4 span{
+    position: absolute;
+    right: 15px;
+    font-size: 16px;
+    top: 50%;
+    transform: translate(0,-50%);
+    font-weight: normal;
+}
+.studentExchangeCourse article .drop-down-item h4 span i{
+    font-style: normal;
+    padding-right: 7px;
+    font-size: 26px;
+    font-weight: normal;
+}
+.studentExchangeCourse article .drop-down-item-content{
+    box-sizing: border-box;
+    padding: 30px 70px 0 30px;
+}
+.studentExchangeCourse article .drop-down-item-content h5{
+    font-size: 20px;
+    color: #003c79;
+    padding-bottom: 30px;
+}
+.studentExchangeCourse article .drop-down-item-content ul li{
+    line-height: 35px;
+    font-size: 20px;
+    color: #587399;
+    letter-spacing: 0;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    box-sizing: border-box;
+    position: relative;
+}
+.studentExchangeCourse article .drop-down-item-content ul li:before{
+    content: '';
+    display: block;
+    width: 5px;
+    height: 5px;
+    background: #587399;
+    left: 18px;
+    top: 15px;
+    position: absolute;
+}
+
+/*交换生-app*/
+.container-main.studentExchangeApplication main .main-box article p{
+    padding-bottom: 45px;
+    letter-spacing: 0;
+}
+.studentExchangeApplication .p-list li{
+    font-size: 18px;
+    line-height: 30px;
+    color: #003c79;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+.studentExchangeApplication .tab-content ul{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #003c79;
+}
+.studentExchangeApplication .tab-content ul li{
+    padding-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+    height: 80px;
+    width: 170px;
+}
+.studentExchangeApplication .tab-content ul li.active:before{
+    position: absolute;
+    content: '';
+    display: block;
+    bottom: -21px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 20px solid #003c79;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+.studentExchangeApplication .tab-content ul li.active:after{
+    position: absolute;
+    content: '';
+    display: block;
+    bottom: -19px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 20px solid #fff;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+.studentExchangeApplication .tab-content ul li h5{
+    font-size: 36px;
+    color: #000;
+    letter-spacing: 0;
+    text-align: center;
+    padding-bottom: 0;
+    line-height: 55px;
+}
+.studentExchangeApplication .tab-content ul li.active h5{
+    font-size: 48px;
+}
+.studentExchangeApplication .tab-content ul li span{
+    font-size: 20px;
+    color: #003c79;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+.studentExchangeApplication .tab-content ul li.active span{
+    font-size: 26px;
+}
+.studentExchangeApplication .tab-content ul li:last-child h5{
+    color: rgb(155,155,155);
+}
+.studentExchangeApplication .tab-content .tab-content-text p{
+    font-size: 20px;
+    color: #003c79;
+    line-height: 40px;
+    letter-spacing: 0;
+    padding-top: 65px;
+}
+.studentExchangeApplication .tab-content .tab-content-text p a{
+    color: #0a88d0;
+    text-decoration: underline;
+    text-underline-offset:4px;
+}
+.studentExchangeApplication .tab-content .tab-content-text .tab-list-item{
+    display: none;
+}
+.studentExchangeApplication .tab-content .tab-content-text .tab-list-item.active{
+    display: block;
+}
+.studentExchangeApplication .tab-content .tab-content-text .tab-list-item.active .list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.studentExchangeApplication .tab-content .tab-content-text .tab-list-item.active .list .list-item{
+    width: 50%;
+    height: 240px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px 30px 0 30px;
+}
+.studentExchangeApplication .tab-content .tab-content-text .tab-list-item.active .list .list-item i{
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 70px;
+    height: 40px;
+}
+.studentExchangeApplication .tab-content .tab-content-text .tab-list-item.active .list .list-item h6{
+    line-height: 28px;
+    padding-top: 15px;
+    font-size: 24px;
+    color: #003c79;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.studentExchangeApplication .tab-content .tab-content-text .tab-list-item.active .list .list-item span{
+    line-height: 32px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    color: #587399;
+}
+.studentExchangeApplication .tab-content .tab-content-text .tab-list-item.active .list .list-item span a{
+    color: #0a88d0;
+    text-decoration: underline;
+    text-underline-offset:4px;
+}
+
+/*交换生-校园生活*/
+.studentExchangeCampus article h3{
+    padding-bottom: 0;
+}
+.studentExchangeCampus article h4{
+    padding-top: 70px;
+    padding-bottom: 32px;
+}
+.studentExchangeCampus article h4.title2{
+    padding-top: 50px;
+}
+.studentExchangeCampus article p{
+    letter-spacing: 0;
+}
+.studentExchangeCampus article p a{
+    color: #0a88d0;
+    text-decoration: underline;
+    text-underline-offset:4px;
+}
+ .short-line{
+    width: 48px;
+    height: 1px;
+    background: rgb(149,154,169);
+    margin-bottom: 35px;
+}
+.studentExchangeCampus article .drop-down-content{
+    padding-top: 10px;
+}
+.studentExchangeCampus .tab-content{
+    box-sizing: border-box;
+    border: 1px solid #003c79;
+    padding-top: 0;
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+.studentExchangeCampus .tab-content ul{
+    display: flex;
+}
+.studentExchangeCampus .tab-content ul li{
+    width: 50%;
+    height: 70px;
+    font-size: 36px;
+    background: #f2f2f2;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+    font-family: "Times New Roman";
+}
+.studentExchangeCampus .tab-content ul li.active{
+    color: #fff;
+    background: #003c79;
+}
+.studentExchangeCampus .tab-list-item{
+    display: none;
+    box-sizing: border-box;
+    padding: 30px 35px 10px 35px
+}
+.studentExchangeCampus .tab-list-item.active{
+    display: block;
+}
+.studentExchangeCampus .tab-list-item p{
+    line-height: 35px;
+    font-size: 20px;
+    letter-spacing: 0;
+}
+.studentExchangeCampus .drop-down-title{
+    height: 50px;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+.studentExchangeCampus .drop-down-title:before{
+    transition: 0.2s;
+    content: '';
+    display: block;
+    border-top: 11px solid #003c79;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.studentExchangeCampus .drop-down-item.active .drop-down-title:before{
+    transform: translateY(-50%) rotateZ(-90deg);
+}
+.studentExchangeCampus .drop-down-title i{
+    color: #003c79;
+    padding-right: 23px;
+    border-right: 1px solid rgb(149,153,168);
+    font-size: 60px;
+    line-height: 50px;
+}
+.studentExchangeCampus .drop-down-title h4,.studentExchangeCampus .drop-down-item.active  .drop-down-title h4{
+    background: none;
+    font-size: 30px;
+    color: #003c79;
+    height: auto;
+    padding: 0;
+    text-indent: 0;
+    line-height: 30px;
+    width: auto;
+    border: none;
+    font-family: "Arial" !important;
+    letter-spacing: 0;
+}
+.studentExchangeCampus .drop-down-title .right{
+    box-sizing: border-box;
+    padding-left: 30px;
+    flex: 1;
+}
+.studentExchangeCampus .drop-down-title .right .top{
+    display: flex;
+    align-items: flex-end;
+}
+.studentExchangeCampus .drop-down-title .right .top span{
+    color: #003c79;
+    font-size: 20px;
+    padding-left: 29px;
+    letter-spacing: 0;
+}
+.studentExchangeCampus .drop-down-title .right p{
+    line-height: 20px;
+    letter-spacing: 0;
+    font-size: 16px;
+    padding-top: 5px;
+    color: #587399;
+}
+.studentExchangeCampus  .drop-down-item .drop-down-title h4:before{
+    display: none;
+}
+.studentExchangeCampus  .drop-down-item.active .drop-down-title h4:before{
+    display: none;
+}
+.studentExchangeCampus .drop-down-item .drop-down-title h4:after{
+    display: none;
+}
+.studentExchangeCampus .drop-down-item.active .drop-down-title h4:after{
+    display: none;
+}
+.studentExchangeCampus .drop-down-item .drop-down-item-content{
+    padding-top: 40px;
+}
+.studentExchangeCampus article .title3{
+    /*padding-top: 20px;*/
+    padding-bottom: 43px;
+}
+.studentExchangeCampus article .title4{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.studentExchangeCampus article .line{
+    border-top: 1px solid #003c79;
+    margin: 20px 0 40px 0;
+}
+.studentExchangeCampus article .contact{
+    border-bottom: 1px solid #003c79;
+    padding-bottom: 49px;
+}
+.studentExchangeCampus article .contact li{
+    display: flex;
+    padding: 10px 0;
+}
+.studentExchangeCampus article .contact li i{
+    padding-left: 50px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    color: #003c79;
+    font-weight: bold;
+    font-style: normal;
+}
+.studentExchangeCampus article .contact li span{
+    font-size: 20px;
+    color: #003c79;
+}
+.studentExchangeCampus article .contact li span em{
+    color: #587399;
+    font-style: normal;
+}
+.container-main.studentExchangeCampus main .main-box article p.contact-p{
+    padding-bottom: 0px;
+}
+
+/*教员交流*/
+.container-main.exchange.faultyExchange main .main-box .menu{
+    width: 237px;
+    margin-right: 40px;
+}
+.container-main.exchange.faultyExchange main .main-box{
+    width: 1160px;
+}
+.container-main.exchange.faultyExchange main article{
+    width: calc(100% - 277px);
+}
+.faultyExchange .carousel{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.faultyExchange .carousel-seamless ul li{
+    width: 748px;
+    height: 436px;
+    position: relative;
+}
+.faultyExchange .carousel-seamless ul li span{
+    position: absolute;
+    bottom: 19px;
+    font-size: 20px;
+    left: 30px;
+    color: #fff;
+    letter-spacing: 0;
+}
+.faultyExchange .carousel-seamless .btn a{
+    height: 405px;
+    background-color: rgba(255,255,255,0);
+}
+.faultyExchange article p{
+    letter-spacing: 0;
+    padding-bottom: 30px;
+    line-height: 35px;
+}
